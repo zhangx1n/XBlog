@@ -16,7 +16,7 @@ export default defineConfig({
       message: '2024 - future',
       copyright: '祝你天天开心',
     },
-    blog: {
+    blogs: {
       title: '博文',
       description: '✍️',
       defaultAuthor: 'ZhangXin',

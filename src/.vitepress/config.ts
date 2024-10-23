@@ -20,6 +20,7 @@ export default defineConfig({
       title: '博文',
       description: '✍️',
       defaultAuthor: 'ZhangXin',
+      path: '/blog/',
       categoryIcons: {
         article: 'i-[heroicons-outline/book-open]',
         tutorial: 'i-[heroicons-outline/academic-cap]',

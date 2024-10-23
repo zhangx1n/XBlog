@@ -16,7 +16,7 @@ export default defineConfig({
       message: '2024 - future',
       copyright: '祝你天天开心',
     },
-    blogs: {
+    blog: {
       title: '博文',
       description: '✍️',
       defaultAuthor: 'ZhangXin',
@@ -42,18 +42,18 @@ export default defineConfig({
         items: [
           {
             text: 'Blog Home',
-            link: '/blogs/',
-            activeMatch: '/blogs/$',
+            link: '/blog/',
+            activeMatch: '/blog/$',
           },
           {
             text: 'Tags',
-            link: '/blogs/tags',
-            activeMatch: '/blogs/tags',
+            link: '/blog/tags',
+            activeMatch: '/blog/tags',
           },
           {
             text: 'Archives',
-            link: '/blogs/archives',
-            activeMatch: '/blogs/archives',
+            link: '/blog/archives',
+            activeMatch: '/blog/archives',
           },
           // {
           //   text: 'RSS Feed',
@@ -61,7 +61,7 @@ export default defineConfig({
           // },
         ],
       },
-      { text: 'About', link: '/blogs/authors/zhangxin' },
+      { text: 'About', link: '/blog/authors/zhangxin' },
 
     ],
 

@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: 最新文章
-      link: /blogs
+      link: /blog
 
 
 features:

@@ -3,16 +3,16 @@
 layout: home
 
 hero:
-  name: YiMing
+  name: ZhangXin
   text: 记录技术与生活
-  tagline: code for fun
+  tagline: Code for Fun
   image:
     src: 128x128_indexhead.png
-    alt: Yiming
+    alt: ZhangXin
   actions:
     - theme: brand
       text: 最新文章
-      link: /blog
+      link: /blogs
 
 
 features:

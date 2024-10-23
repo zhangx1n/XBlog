@@ -2,7 +2,7 @@ import { defineConfig } from '@jcamp/vitepress-blog-theme/config'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "YiMing's blog",
+  title: "ZhangXin's blog",
   description: 'A balanced life, coding for enjoyment',
   head: [
     ['link', { rel: 'icon', href: 'yiminglogo2.png' }],
@@ -11,15 +11,15 @@ export default defineConfig({
 
   themeConfig: {
     logo: 'yiminglogo2.png',
-    siteTitle: "YiMing's Blog",
+    siteTitle: "ZhangXin's Blog",
     footer: {
       message: '2024 - future',
-      copyright: '我在练习生活',
+      copyright: '祝你天天开心',
     },
     blog: {
       title: '博文',
       description: '✍️',
-      defaultAuthor: 'YiMing',
+      defaultAuthor: 'ZhangXin',
       categoryIcons: {
         article: 'i-[heroicons-outline/book-open]',
         tutorial: 'i-[heroicons-outline/academic-cap]',
@@ -42,18 +42,18 @@ export default defineConfig({
         items: [
           {
             text: 'Blog Home',
-            link: '/blog/',
-            activeMatch: '/blog/$',
+            link: '/blogs/',
+            activeMatch: '/blogs/$',
           },
           {
             text: 'Tags',
-            link: '/blog/tags',
-            activeMatch: '/blog/tags',
+            link: '/blogs/tags',
+            activeMatch: '/blogs/tags',
           },
           {
             text: 'Archives',
-            link: '/blog/archives',
-            activeMatch: '/blog/archives',
+            link: '/blogs/archives',
+            activeMatch: '/blogs/archives',
           },
           // {
           //   text: 'RSS Feed',
@@ -61,7 +61,7 @@ export default defineConfig({
           // },
         ],
       },
-      { text: 'About', link: '/blog/authors/yi-ming' },
+      { text: 'About', link: '/blogs/authors/zhangxin' },
 
     ],
 
@@ -78,7 +78,7 @@ export default defineConfig({
     socialLinks: [
       {
         icon: 'github',
-        link: 'https://github.com/realzhengyiming',
+        link: 'https://github.com/zhangx1n',
       },
     ],
   },

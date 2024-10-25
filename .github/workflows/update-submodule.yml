@@ -13,13 +13,15 @@ jobs:
         with:
           submodules: recursive
           token: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Update submodule reference
         run: |
           git submodule update --remote --merge
           git add src/blog/posts
           git commit -m "Update submodule to latest commit"
+
       - name: Push changes
         run: |
           git push origin main
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

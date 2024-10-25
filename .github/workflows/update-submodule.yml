@@ -1,27 +1,33 @@
-name: Update Submodule
+name: Update Submodules
 
 on:
   repository_dispatch:
-    types: [update-submodule]
+    types: [submodule_update]
 
 jobs:
-  update-submodule:
+  update:
     runs-on: ubuntu-latest
+    
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
-          submodules: recursive
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Update submodule reference
+          fetch-depth: 0
+          submodules: true
+          token: ${{ secrets.PAT_TOKEN }}
+      
+      - name: Git config
         run: |
-          git submodule update --remote --merge
-          git add src/blog/posts
-          git commit -m "Update submodule to latest commit"
-
-      - name: Push changes
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+      
+      - name: Update submodules
         run: |
-          git push origin main
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          git submodule update --remote
+          if [[ -n $(git status -s) ]]; then
+            git add .
+            git commit -m "chore: update submodule to latest commit"
+            git push
+          else
+            echo "No updates found"
+          fi

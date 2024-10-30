@@ -5,12 +5,12 @@ export default defineConfig({
   title: "ZhangXin's blog",
   description: 'A balanced life, coding for enjoyment',
   head: [
-    ['link', { rel: 'icon', href: 'logo.png' }],
+    ['link', { rel: 'icon', href: 'my-avatar.svg' }],
   ],
   outDir: '../dist',
 
   themeConfig: {
-    logo: 'logo.png',
+    logo: 'my-avatar.svg',
     siteTitle: "ZhangXin's Blog",
     footer: {
       message: '2024 - future',

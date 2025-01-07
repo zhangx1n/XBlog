@@ -4,8 +4,8 @@ layout: home
 
 hero:
   name: ZhangXin
-  text: 记录技术与生活
-  tagline: Code for Fun
+  text: Chronicling the Art of Code and the Poetry of Life
+  tagline: Where Curiosity Meets Creation
   image:
     src: 128x128_indexhead.png
     alt: ZhangXin
@@ -16,10 +16,12 @@ hero:
 
 
 features:
-  - title: 数据挖掘
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: 人工智能
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: 代码工程
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Scalable Data Systems
+    details: Engineering distributed storage architectures that balance performance, resilience, and data integrity for large-scale sensor data and critical analytics pipelines.
+  
+  - title: Applied Artificial Intelligence
+    details: Exploring the pragmatic applications of AI in software engineering, from intelligent automation to data-driven decision-making, while staying grounded in ethical principles.
+
+  - title: Software Architecture and Optimization
+    details: Crafting efficient, scalable backend solutions with a focus on performance tuning, concurrency patterns, and systems-level design in modern development ecosystems.
 ---

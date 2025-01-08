@@ -3,11 +3,16 @@ name: Zhang Xin
 avatar: https://avatars.githubusercontent.com/u/26131338?v=4
 ---
 
-## Zhang Xin  
+## Zhang Xin ✨
 
-大家好，我是ZhangXin，一名程序员。我对数据/AI/算法有着浓厚的兴趣，同时也热衷于分享我的学习和经验。在这个博客中, 我将分享有关我生活/工作之中对各种技术的信息和简介. 我希望通过这个平台能够传达我的知识、观点和思考，并与读者进行互动和交流。  
+Greetings, traveler of thoughts and code.
 
-如果你对我的博客感兴趣，或者有任何问题、建议或合作的想法，请随时通过电子邮件或社交媒体与我联系。我很乐意与你交流并分享更多有价值的内容。
+I am Zhang Xin, a programmer drawn to the elegance of data, the mysteries of algorithms, and the unfolding frontier of artificial intelligence. This space is not merely a collection of articles but a quiet sanctuary where knowledge, curiosity, and creativity converge.
 
-*张欣*
-*sjhpzx@gmail.com*
+Within these pages, I share fragments of my journey—insights born from moments of discovery in both work and life, as well as reflections on the evolving landscape of technology. Each post aspires not just to inform but to spark dialogue, to offer both clarity and wonder in equal measure.
+
+Should you find resonance here—whether a question, a thought, or the desire for collaboration—I welcome you to reach out through email or social channels. Ideas, after all, find their fullest expression in conversation.
+
+Contact: sjhpzx@gmail.com 📩 
+
+Let us explore the infinite architectures of code and thought, together.

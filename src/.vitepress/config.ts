@@ -11,13 +11,13 @@ export default defineConfig({
 
   themeConfig: {
     logo: 'my-avatar.svg',
-    siteTitle: "ZhangXin's Blog",
+    siteTitle: "Zhang Xin's Blog",
     footer: {
-      message: '2024 - future',
-      copyright: '祝你天天开心',
+      message: '2024 & Beyond',
+      copyright: 'Wishing you joy and inspiration every day.',
     },
     blog: {
-      title: '博文',
+      title: 'blogs',
       description: '✍️',
       defaultAuthor: 'ZhangXin',
       path: '/blog/',

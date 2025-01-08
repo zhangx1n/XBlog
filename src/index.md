@@ -11,7 +11,7 @@ hero:
     alt: ZhangXin
   actions:
     - theme: brand
-      text: 最新文章
+      text: Latest Posts
       link: /blog
 
 
